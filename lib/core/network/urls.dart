@@ -1,0 +1,20 @@
+get baseUrl => "https://easyfycare.gjglobalsoft.com/easyfy/";
+
+const sentOtpUrl = "otp/send-otp",
+    verifyOtpUrl = "otp/verify-otp",
+    getUserByIdUrl = "user/id",
+    registerUserUrl = "user/register",
+    getDoctorByStatusUrl = "doctor/list-by-status",
+    allocateDoctorUrl = "user/allocate-doctor",
+    getallocatedDoctorUrl = "user/patient-allocation",
+     getPushNotificationUrl = "notification/enable",
+     uploadProfileUrl = "user/upload-profile-pic",
+     downloadProfileUrl = "user/download-profile-pic",
+      getNotificationListingUrl ="notification/get-unread",
+    readNotificationUrl = "notification/update-read-status",
+    deleteAllNotificationsUrl ="notification/update-all-status",
+    getNearByTreatmentCentersUrl = "treatment-center/active",
+    termsStatusChangeUrl = "user/accept-terms/",
+    fileUploadUrl = "patient-documents/upload",
+    qrTrackingUrl = "qr-tracking",
+    resentOtpUrl = "otp/resend-otp";
